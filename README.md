@@ -2,7 +2,7 @@
 
 Basketball community project for basketball lovers. Ballers were finding it hard to have basketball mates and have games with another team 
 unless they are in a league or certain community. This web project is to resolve their hardships through helping them find people to play with, 
-create a team, small basketball game, etc. 
+create a team, small basketball game, etc. this is designed to be used on both mobile and web.
 
 ## Getting Started
 
@@ -44,6 +44,12 @@ hikariConfig, dataSource, sqlSessionFactory, mybatis-spring:scan, context:compon
 <img width="686" alt="Screenshot 2023-01-08 at 1 30 26 PM" src="https://user-images.githubusercontent.com/56284745/211180506-0b5b10f0-7bcc-4547-abf8-654624c73fb2.png">
 
 ### 3. Features
+
+HTML&CSS
+-Bootstrap came in handy.
+
+<img width="615" alt="Screenshot 2023-01-08 at 2 05 21 PM" src="https://user-images.githubusercontent.com/56284745/211181379-c89aef92-4e1b-4a3c-bab6-a0aaf97764a7.png">
+
 
 Login
 - Using Spring Security, log in development became much easier and more secure, and was able to successfully upload user info into oracle database.

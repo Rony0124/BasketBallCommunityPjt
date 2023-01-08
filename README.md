@@ -53,29 +53,21 @@ Login
 Court Location registration
 - By using Kakao map api, enabled for user to update map info uploading basketballl location.
 
-![Uploading Screenshot 2023-01-08 at 1.40.44 PM.png…]()
+<img width="185" alt="Screenshot 2023-01-08 at 1 40 44 PM" src="https://user-images.githubusercontent.com/56284745/211180790-b579537b-477c-4f2a-a789-d93a9a695c19.png">
+
+Create teams, Broadcast team/team members search
+
+<img width="682" alt="Screenshot 2023-01-08 at 1 47 08 PM" src="https://user-images.githubusercontent.com/56284745/211180842-04bbce3d-ef9d-4496-b43f-c6d89989c4fe.png">
+
+Reflective Reply system(Reply of Reply)
+- this help me deep-dive into understanding of api, RDBMS, JPA, JQuery
+
+### Spring MVC
+
+- In web-development, i couldn't help but notice MVC Pattern is one of the most commonly used pattern on Web project. 
+this framework works around DispatcherServlet with mapperss, viewers and so on. mostly based on the @Controller and @RequestMapping annotations. and As of introduction of Spring 3.0, the @Controller annotation allows develops to create RESTful Web sites and applications. This feature comes in handy when creating relationships between Database and Mappers and others.
 
 
-## Running the tests
+![Spring MVC workflow diagram](https://user-images.githubusercontent.com/56284745/211181322-4eda546e-54ef-4620-abbd-6e8cc89eb914.png)
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-
+-ref: https://www.codejava.net/frameworks/spring/how-to-enable-spring-mvc-in-webxml

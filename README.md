@@ -77,3 +77,6 @@ this framework works around DispatcherServlet with mapperss, viewers and so on. 
 ![Spring MVC workflow diagram](https://user-images.githubusercontent.com/56284745/211181322-4eda546e-54ef-4620-abbd-6e8cc89eb914.png)
 
 -ref: https://www.codejava.net/frameworks/spring/how-to-enable-spring-mvc-in-webxml
+
+### What i learned
+This is my first project ever. I hadn't felt how this framework makes life easier because i had no comparions for this tool. Maybe that is why i didnt do deep dive into understaning this framework, how this library and plugin really work in this project. Now that i finished this project, and see how it would be like building web projects from scractch. i was so fascinated by how lovely tool the Spring was. So i thought it would be nice to be the guy who could make framework and tools for better developing environments, and better programming flow.

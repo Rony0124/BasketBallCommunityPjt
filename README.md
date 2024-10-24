@@ -22,14 +22,14 @@ Check Tomcat setting
 windows->preference->server->runtime environment->add
 
 Create project
-Select Spring perspective
+Spring 선택
 file->new->spring legacy project->spring mvc project
 
 Edit POM file
 java-version, org.springframework-version, HikariCP, Mybatis, lombok, spring-test, junit, maven-compiler-plugin
 
 Root-Context.xml edit
-Choose prereuired NameSpace {apo, beans, c, context, mybatis-spring, p}
+prereuired NameSpace {apo, beans, c, context, mybatis-spring, p} 선택택
 hikariConfig, dataSource, sqlSessionFactory, mybatis-spring:scan, context:component-scan
 
 ### 2. Schedule Management
@@ -38,19 +38,13 @@ hikariConfig, dataSource, sqlSessionFactory, mybatis-spring:scan, context:compon
 
 ### 3. Features
 
-HTML&CSS
--Bootstrap came in handy.
-
-<img width="615" alt="Screenshot 2023-01-08 at 2 05 21 PM" src="https://user-images.githubusercontent.com/56284745/211181379-c89aef92-4e1b-4a3c-bab6-a0aaf97764a7.png">
-
-
 Login
-- Using Spring Security, log in development became much easier and more secure, and was able to successfully upload user info into oracle database.
+- Spring Security를 사용하여 로그인 개발이 훨씬 쉬워지고 보안도 강화되었으며, 사용자 정보를 Oracle 데이터베이스에 성공적으로 업로드할 수 있었습니다.
 
 <img width="649" alt="Screenshot 2023-01-08 at 1 37 51 PM" src="https://user-images.githubusercontent.com/56284745/211180631-6b10fcc9-8ed0-4e4a-b1fb-09030b40abd6.png">
 
-Court Location registration
-- By using Kakao map api, enabled for user to update map info uploading basketballl location.
+코트 위치 등록
+- Kakao 지도 API를 사용하여 사용자가 농구장 위치를 업로드해 지도 정보를 업데이트할 수 있도록 구현했습니다.
 
 <img width="185" alt="Screenshot 2023-01-08 at 1 40 44 PM" src="https://user-images.githubusercontent.com/56284745/211180790-b579537b-477c-4f2a-a789-d93a9a695c19.png">
 
@@ -59,7 +53,7 @@ Create teams, Broadcast team/team members search
 <img width="682" alt="Screenshot 2023-01-08 at 1 47 08 PM" src="https://user-images.githubusercontent.com/56284745/211180842-04bbce3d-ef9d-4496-b43f-c6d89989c4fe.png">
 
 Reflective Reply system(Reply of Reply)
-- this help me deep-dive into understanding of api, RDBMS, JPA, JQuery
+- Reflective Reply 시스템(답글의 답글)을 구현하면서 API, RDBMS, JPA, JQuery에 대한 이해를 더욱 깊이 있게 할 수 있었습니다.
 
 ### Spring MVC
 

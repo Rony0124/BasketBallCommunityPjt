@@ -1,15 +1,8 @@
 # 농구할래?!
 
-Basketball community project for basketball lovers. Ballers were finding it hard to have basketball mates and have games with another team 
-unless they are in a league or certain community. This web project is to resolve their hardships through helping them find people to play with, 
-create a team, small basketball game, etc. this is designed to be used on both mobile and web.
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+농구를 사랑하는 사람들을 위한 커뮤니티 프로젝트입니다. 농구인들은 종종 리그나 특정 커뮤니티에 속하지 않으면 함께 농구를 할 친구나 다른 팀과 경기를 하는 데 어려움을 겪습니다. 이 웹 프로젝트는 이러한 어려움을 해결하기 위해 기획되었습니다. 농구인들이 함께 경기를 할 사람들을 찾고, 팀을 만들거나 소규모 농구 경기를 주선하는 등의 기능을 제공합니다. 이 프로젝트는 모바일과 웹 모두에서 사용할 수 있도록 설계되었습니다.
 
 ## development
-
 
 ### 1. How to set Spring
 
@@ -70,8 +63,7 @@ Reflective Reply system(Reply of Reply)
 
 ### Spring MVC
 
-- In web-development, i couldn't help but notice MVC Pattern is one of the most commonly used pattern on Web project. 
-this framework works around DispatcherServlet with mapperss, viewers and so on. mostly based on the @Controller and @RequestMapping annotations. and As of introduction of Spring 3.0, the @Controller annotation allows develops to create RESTful Web sites and applications. This feature comes in handy when creating relationships between Database and Mappers and others.
+- 웹 개발에서 MVC 패턴은 가장 많이 사용되는 패턴 중 하나입니다. 이 프레임워크는 DispatcherServlet을 중심으로 매퍼, 뷰어 등을 포함하여 동작하며, 주로 @Controller와 @RequestMapping 어노테이션에 기반을 둡니다. 특히 Spring 3.0이 도입된 이후, @Controller 어노테이션은 RESTful 웹사이트와 애플리케이션을 쉽게 만들 수 있도록 지원합니다. 이 기능은 데이터베이스와 매퍼 등과의 관계를 설정할 때 매우 유용합니다.
 
 
 ![Spring MVC workflow diagram](https://user-images.githubusercontent.com/56284745/211181322-4eda546e-54ef-4620-abbd-6e8cc89eb914.png)
@@ -79,4 +71,4 @@ this framework works around DispatcherServlet with mapperss, viewers and so on. 
 -ref: https://www.codejava.net/frameworks/spring/how-to-enable-spring-mvc-in-webxml
 
 ### What i learned
-This is my first project ever. I hadn't felt how this framework makes life easier because i had no comparions for this tool. Maybe that is why i didnt do deep dive into understaning this framework, how this library and plugin really work in this project. Now that i finished this project, and see how it would be like building web projects from scractch. i was so fascinated by how lovely tool the Spring was. So i thought it would be nice to be the guy who could make framework and tools for better developing environments, and better programming flow.
+이 프로젝트는 제 첫 번째 프로젝트였습니다. 처음에는 이 프레임워크가 얼마나 삶을 편하게 만들어주는지 잘 느끼지 못했는데, 아마도 다른 도구와 비교할 경험이 없었기 때문인 것 같습니다. 그래서 이 프레임워크가 실제로 어떻게 작동하는지, 라이브러리와 플러그인이 프로젝트에서 어떤 역할을 하는지 깊이 파고들지 않았던 것 같아요. 하지만 프로젝트를 마치고, 웹 프로젝트를 처음부터 끝까지 직접 만들어보니 Spring이라는 도구가 얼마나 매력적인지 새삼 깨닫게 되었습니다. 그래서 더 나은 개발 환경과 프로그래밍 흐름을 제공하는 프레임워크와 도구를 만드는 사람이 되면 좋겠다는 생각이 들었습니다.
